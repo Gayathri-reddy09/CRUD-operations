@@ -1,4 +1,3 @@
-// User.js
 import React, { useState } from 'react';
 import { TableRow, TableCell, Button, TextField, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
 import { useDispatch } from 'react-redux';
