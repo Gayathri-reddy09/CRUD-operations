@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
-      <div style={{ width: '80%' }}>
+      <div style={{  width: '100%', maxWidth: '800px'  }}>
         <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>Users List</h1>
         <Button variant="contained" onClick={handleAddUser} style={{ marginBottom: '20px' }}>Add User</Button>
         {status === 'loading' && <CircularProgress />}
